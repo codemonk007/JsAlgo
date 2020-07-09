@@ -33,3 +33,22 @@ function capitalize(str) {
   //   return words.join(' ');
   // }
   
+
+  let tempString="hello World";
+
+
+function Capitalize(str){
+
+let ArrayStr= str.split(" ");
+let word='';
+ArrayStr.forEach(element => {
+    console.log(element.charAt(0));
+    
+    word = word+" "+(element.charAt(0)).toUpperCase()+element.slice(1) ;
+});
+
+return word;
+}
+
+
+console.log(Capitalize(tempString));
