@@ -1,4 +1,5 @@
 function Checktype(param){
+    console.log(Object.prototype.toString.call(param));
 return Object.prototype.toString.call(param) === '[object Array]'? true:false;
 }
 console.log(Checktype([1,2,3,4]));
