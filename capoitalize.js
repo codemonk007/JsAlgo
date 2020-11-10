@@ -52,3 +52,12 @@ return word;
 
 
 console.log(Capitalize(tempString));
+
+
+
+///
+let temp = "test test test test";
+let temp1=temp.split(' ').
+map(Element => Element.charAt(0).toUpperCase()+Element.slice(1)).join(' ')
+
+console.log(temp1)
