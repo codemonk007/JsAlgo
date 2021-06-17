@@ -66,3 +66,8 @@ for(var ele of get_entries) {
 
 
 console.log(result)
+
+
+let string1="helloworld".split("").sort((a,b)=>a.localeCompare(b));
+let string2="worldhello".split("").sort((a,b)=>a.localeCompare(b));
+

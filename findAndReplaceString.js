@@ -10,8 +10,7 @@ function replace(realString,replaceString){
             let temp=tempArray[i].replace(tempArray[i],replaceString);
             tempArray[i]= temp;
             
-        }
-        
+        } 
     }
 console.log(tempArray.join(' '));
 

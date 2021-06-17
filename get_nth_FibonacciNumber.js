@@ -7,6 +7,4 @@ function fib(n) {
 	}
 	return a;
 }
-
-
 console.log(fib(10));
